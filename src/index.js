@@ -70,6 +70,9 @@ function makePanel({ title, content } /* what data does the panel need? */) {
 
   panel.appendChild(panelBar);
   panel.appendChild(panelContent);
+
+  panel.appendChild(panelBar, panelContent)
+
   panelBar.appendChild(panelTitle);
   panelBar.appendChild(panelButtons);
   panelButtons.appendChild(openButton);
