@@ -13,10 +13,11 @@ const imageData = [
 function makeImage({ imageURL }) { // destructured assignment (new syntax)
   const imgElement = document.createElement("img"); // make a detached img tag
   imgElement.style.width = "10em"; // inline style
-  imgElement.src = imageURL;
-  return imgElement;
+  imgElement.src = imageURL; // set the image property to the image passed in
+  return imgElement; // don't forget to return!
 }
 
+// loop where we use the component!
 imageData.forEach((imgObj) => {
   // 1 - make an image
   const img = makeImage(imgObj);
