@@ -9,6 +9,7 @@ const imageData = [
   { imageURL: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg" },
 ];
 
+//
 function makeImage({ imageURL }) {
   // destructured assignment
   const imgElement = document.createElement("img");
