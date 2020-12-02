@@ -116,7 +116,9 @@ const panelElements = panelData.map((panelData) => {
   return makePanel(panelData);
 });
 
-
+panelElements.forEach((panelElement) => {
+  accordion.appendChild(panelElement);
+});
 
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
