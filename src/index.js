@@ -12,8 +12,9 @@ const imageData = [
 function makeImage({ imageURL }) {
   // destructured assignment
   const imgElement = document.createElement("img");
-  imgElement.style.width = '10em'
-  imgElement
+  imgElement.style.width = "10em";
+  imgElement.src = imageURL;
+  return imgElement;
 }
 
 // TASK 1- Import the data we need to "hydrate" our component.
