@@ -10,7 +10,8 @@ const imageData = [
 ];
 
 // the component is an image that takes raw data
-function makeImage({ imageURL }) { // destructured assignment (new syntax)
+function makeImage({ imageURL }) {
+  // destructured assignment (new syntax)
   const imgElement = document.createElement("img"); // make a detached img tag
   imgElement.style.width = "10em"; // inline style
   imgElement.src = imageURL; // set the image property to the image passed in
