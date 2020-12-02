@@ -80,6 +80,10 @@ function makePanel({ title, content } /* what data does the panel need? */) {
 
   panel.classList.add("panel");
   panelBar.classList.add("panel-bar");
+  panelButtons.classList.add("panel-buttons");
+  panelContent.classList.add("panel-content");
+  openButton.classList.add("panel-btn-open");
+  closeButton.classList.add("panel-btn-close", "hide-btn");
 
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
