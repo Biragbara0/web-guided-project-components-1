@@ -79,7 +79,7 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   // paying attention to the elements that need to start out hidden
 
   panel.classList.add("panel");
-  panelBar
+  panelBar.classList.add("panel-bar");
 
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
