@@ -9,11 +9,10 @@ const imageData = [
   { imageURL: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg" },
 ];
 
-//
-function makeImage({ imageURL }) {
-  // destructured assignment
-  const imgElement = document.createElement("img");
-  imgElement.style.width = "10em";
+// the component is an image that takes raw data
+function makeImage({ imageURL }) { // destructured assignment (new syntax)
+  const imgElement = document.createElement("img"); // make a detached img tag
+  imgElement.style.width = "10em"; // inline style
   imgElement.src = imageURL;
   return imgElement;
 }
