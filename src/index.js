@@ -47,12 +47,12 @@ const accordion = document.querySelector(".accordion");
 function makePanel({ title, content } /* what data does the panel need? */) {
   // TASK 5- Instantiate all the elements needed for a panel
   const panel = document.createElement("div");
-  const panelBar = null;
-  const panelContent = null;
-  const panelTitle = null;
-  const panelButtons = null;
-  const openButton = null;
-  const closeButton = null;
+  const panelBar = ;
+  const panelContent = ;
+  const panelTitle = ;
+  const panelButtons = ;
+  const openButton = ;
+  const closeButton = ;
 
   // TASK 6- Setup the structure of our elements
   /*
