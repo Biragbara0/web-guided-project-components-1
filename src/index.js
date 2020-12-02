@@ -21,7 +21,7 @@ imageData.forEach((imgObj) => {
   // 1 - make an image
   const img = makeImage(imgObj);
   // 2 - attach to DOM
-  document.body.
+  document.body.prepend(img);
 });
 
 // TASK 1- Import the data we need to "hydrate" our component.
